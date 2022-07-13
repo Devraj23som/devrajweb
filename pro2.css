@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  
+}
+#main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.box1{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    /* rotate:90deg ; */
+    mix-blend-mode: darken;
+    background-color: yellowgreen;
+    transition: 1.2s;
+    
+}
+.box2{
+    mix-blend-mode:color-burn;
+    bottom: 0;
+    position: absolute;
+    transition: 1.2s;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(238, 159, 12);
+}
+button{
+    z-index: 1;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
