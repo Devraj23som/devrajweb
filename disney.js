@@ -1,10 +1,10 @@
 
 var arr=[
-    {imgs:"goku.png",name:"Goku",power:"ultra instint",colrs:"orange"},
-    {imgs:"vegeta.png",name:"Vegeta",power:"Super Saiyan Blue",colrs:"navy"},
-    {imgs:"freeza.png",name:"Gold-Freeza",power:"Gold form",colrs:"gold"},
-    {imgs:"berus.png",name:"Lord berus",power:"infinte"},
-    {imgs:"trunks.png",name:"Future-Trunks",power:"SS2",colrs:"red"},
+    {imgs:"dbz/goku.png",name:"Goku",power:"ultra instint",colrs:"orange"},
+    {imgs:"dbz/vegeta.png",name:"Vegeta",power:"Super Saiyan Blue",colrs:"navy"},
+    {imgs:"dbz/freeza.png",name:"Gold-Freeza",power:"Gold form",colrs:"gold"},
+    {imgs:"dbz/berus.png",name:"Lord berus",power:"infinte"},
+    {imgs:"dbz/trunks.png",name:"Future-Trunks",power:"SS2",colrs:"red"},
 ]
 var clut="";
 arr.forEach(function(dets,index){
