@@ -1,0 +1,435 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: gilroy;
+    
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color:white;
+}
+
+
+
+.nav{
+    padding: 0 10px;
+    width: 100%;
+    height: 10%;
+    /* color: white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+
+}
+.logo{
+    width: 30%;
+    display: flex;
+    
+    align-items: center;
+    
+}
+.logo img{
+    /* position: absolute; */
+    width: 40%;
+    height: 25%;
+}
+.logo h3{
+    /* color: white; */
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.search{
+    justify-content: center;
+    color: rgb(159, 172, 172);
+    width: 190px;
+  border-radius: 24px;
+    background-color: rgb(241, 241, 239);
+    display: flex;
+    align-items: center;
+}
+.search h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+#inp{
+    background-color: rgb(241, 241, 239);
+    border-style: none;
+    text-align: center;
+    width: 135px;
+    border-radius: 20px;
+
+}
+.navright{
+    display: flex;
+    align-items: center;
+
+}
+.navright h3{
+    margin-right: 10px;
+    font-weight: 500;
+}
+.navright h3 i{
+    
+    font-size: 19px;
+}
+.content{
+    overflow: hidden;
+    overflow-x: scroll;
+    display: flex;
+    /* flex-flow: column-reverse; */
+    /* flex-direction: row; */
+    /* flex-flow:row-reverse; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* flex-wrap: wrap; */
+    /* flex-wrap: nowrap; */
+    height: 75%;
+    /* background-color: aqua; */
+}
+.content::-webkit-scrollbar{
+    display: none;
+}
+.box{
+    margin-right: 20px;
+    width: 20%;
+    height: 50%;
+    /* background:linear-gradient(150deg,red,black,rgb(0, 204, 255)); */
+    border-radius: 20px;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-bottom: 10%; */
+    transition: 1s;
+}
+.box h4{
+    font-size: 15px;
+}
+.box:hover {
+    width: 15%;
+    /* height: 30%; */
+    cursor: pointer;
+
+
+}
+.box:hover h4{
+    transition: 0.6s;
+    opacity: 0;
+}
+.box:hover img{
+    filter: drop-shadow(10px 8px 10px black );
+    transform: scale(1.5) translate(0 ,-20%);
+    
+}
+
+
+.box img{
+    transition: 0.8s;
+    /* max-width: 50%; */
+    max-height: 80%;
+}
+span{
+    font-weight:500 ;
+
+}
+.box:nth-child(1){
+    background-color:rgb(201, 56, 3);
+}
+.box:nth-child(2){
+    background-color:rgb(30, 30, 109);
+}
+.box:nth-child(3){
+    background-color:rgb(175, 116, 6);
+}
+.box:nth-child(4){
+    background-color:rgb(66, 8, 66);
+}
+.box:nth-child(5){
+    background-color: lightskyblue;
+}
+#main2{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background-color:black; */
+    color: white;
+
+    font-family: 'Permanent Marker', cursive;
+    /* font-family: 'Righteous', cursive; */
+    justify-content: space-between;
+    display: flex;
+
+}
+#main2>h1{
+    font-weight: 500;
+    font-size: 70px;
+}
+.m1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.wbox{
+    background-position: center;
+    background-size: cover;
+    background-image: url(whis.png);
+    width:200px;
+    height: 400px;
+    /* background-color: red; */
+}
+.m3 .wbox{
+    background-position: center;
+    background-size: cover;
+    background-image: url(vados.png);
+    width:200px;
+    height: 400px;
+    /* background-color: red; */
+}
+
+.m3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.m2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width:450px;
+    height: 400px;
+    /* background-color: aqua; */
+}
+.m2 img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+#main3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.card,.card2,.card3{
+    border: 1px solid;
+    border-radius: 20px;
+    position: relative;
+    /* text-align: center; */
+    width: 300px;
+    height: 450px;
+    /* background-color: red; */
+    transition: 1s;
+    transform-style: preserve-3d;
+    
+}
+.card:hover{
+    transform:rotateY(-180deg);
+    
+}
+.card2:hover{
+    transform:rotateY(-180deg);
+    
+}
+.card3:hover{
+    transform:rotateY(-180deg);
+    
+}
+.card-front,.card-back{
+    border-radius: 20px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+
+}
+.card .card-front{
+    background-image: url(https://i.pinimg.com/originals/12/65/94/126594bd2260d6824f0546cfd7de4bb0.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: red; */
+    
+}
+.card-back{
+    /* background-image: url(gotenss.png); */
+    background-size: cover;
+    background-position: center;
+    background:linear-gradient(150deg,orange,black);
+    transform:rotateY(180deg);
+
+}
+.card-back img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+ .card2 .card-front{
+    background-image: url(https://www.kindpng.com/picc/m/182-1824776_kid-gohan-png-transparent-png.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ .card3 .card-front{
+    background-image: url(https://www.kindpng.com/picc/m/166-1667797_goku-black-by-jaredsongohan-dacd6mg-goku-black-to.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card3 .card-back{
+    /* background-image: url(gotenss.png); */
+    background-size: cover;
+    background-position: center;
+    background:linear-gradient(150deg,rgb(255, 0, 234),black);
+    transform:rotateY(180deg);
+
+}
+.card2 .card-back{
+    /* background-image: url(gotenss.png); */
+    background-size: cover;
+    background-position: center;
+    background:linear-gradient(150deg,rgb(167, 7, 199),black);
+    transform:rotateY(180deg);
+
+}
+
+
+
+
+@media only screen and (max-width:480px) {
+    #main{
+        width: 100vw;
+        height: 100vh;
+        box-sizing: border-box;
+
+    }
+    .nav{
+        width: 100%;
+    }
+    .logo img{
+        width: 50%;
+    }
+    .logo h3{
+        font-size: 15px;
+
+    }
+    .search{
+        width: 2vw;
+    }
+    .navright h3{
+        display:none;
+
+    }
+    .content{
+        display:block;
+        width: 100vw;
+        height: 100vh;
+        /* overflow:hidden; */
+        overflow-y: scroll;
+        /* flex-wrap: nowrap; */
+        /* white-space: nowrap; */
+
+    }
+    .box{
+        width: 100vw;
+        
+    }
+    #main2{
+        margin-top:10vh ;
+        width: 100vw;
+        height: 100vh;
+        display:block;
+        float: inline-end;
+    }
+    .m1{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+
+    }
+    .m2{
+        display: none;
+        width: 50vw;
+        height: 100vh;
+        display: flex;
+        position: absolute;
+        
+    }
+    .m2 img{
+        display: none;
+        width: 100vw;
+        position: absolute;
+        top: 100%;
+    }
+    .m3{
+        display:flex;
+    }
+    .m3 .wbox{
+        width: 100vw;
+        height: 100vh;
+    }
+    #main3{
+        width: 100vw;
+        height: 100vh;
+        overflow-y: scroll;
+        display: flex;
+    }
+    .cards{
+        /* justify-cont
+    
+    flex-direction: column; */
+    display: block;
+    }
+    .card,.card2,.card3{
+        width: 90vw;
+        height: 70vh;
+    }
+    .cards img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .card2 .card-front{
+        background-position: center;
+        background-size: cover;
+    }
+
+}
