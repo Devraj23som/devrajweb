@@ -1,6 +1,6 @@
 
 var arr=[
-    {imgs:"devrajweb/dbz/goku.png",name:"Goku",power:"ultra instint",colrs:"orange"},
+    {imgs:"dbz/goku.png",name:"Goku",power:"ultra instint",colrs:"orange"},
     {imgs:"dbz/vegeta.png",name:"Vegeta",power:"Super Saiyan Blue",colrs:"navy"},
     {imgs:"dbz/freeza.png",name:"Gold-Freeza",power:"Gold form",colrs:"gold"},
     {imgs:"dbz/berus.png",name:"Lord berus",power:"infinte"},
